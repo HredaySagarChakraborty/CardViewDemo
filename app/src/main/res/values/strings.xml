@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CardViewDemo</string>
+    <string name="option1">School </string>
+    <string name="option2"> Hospital</string>
+    <string name="option3">Restaurant </string>
+    <string name="option4">Airport </string>
+    <string name="option5">Book </string>
+    <string name="option6">Phone </string>
+    <string name="option7">Car </string>
+    <string name="option8">Man </string>
+</resources>

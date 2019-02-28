@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:clipToPadding="false">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/restaurantCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/bunu"
+
+
+                    android:src="@drawable/ic_action_restaurant"
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+
+
+                <View
+
+                    android:background="@color/Blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+
+
+                </View>
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:text="@string/option3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/airCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/troyi"
+
+
+                    android:src="@drawable/ic_action_airport"
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+
+
+                <View
+
+                    android:background="@color/Pink"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+
+
+                </View>
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:text="@string/option4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:clipToPadding="false">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bookCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/mama"
+
+
+                    android:src="@drawable/ic_action_books"
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+
+
+                <View
+
+                    android:background="@color/colorPrimary1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+
+
+                </View>
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:text="@string/option5"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/phoneCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/mami"
+
+
+                    android:src="@drawable/ic_action_phone"
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+
+
+                <View
+
+                    android:background="@color/colorPrimaryDark2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+
+
+                </View>
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:text="@string/option6"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:clipToPadding="false">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/carCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:background="@drawable/nerol"
+
+
+                    android:src="@drawable/ic_action_car"
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+
+
+                <View
+
+                    android:background="@color/Red"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+
+
+                </View>
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:text="@string/option7"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/manCardViewId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/tasnuva"
+
+
+                    android:src="@drawable/ic_action_man"
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+
+
+
+                <View
+
+                    android:background="@color/colorAccent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+
+
+                </View>
+
+                <TextView
+
+                    android:layout_gravity="center"
+                    android:text="@string/option2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
